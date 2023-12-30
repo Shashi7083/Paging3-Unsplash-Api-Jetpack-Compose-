@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
-    <style name="Theme.Paging3_n_UnSplashAPI" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.Paging3_n_UnSplashAPI" parent="android:Theme.Material.Light.DarkActionBar" >
+
+
+    <!-- Status bar color. -->
+    <item name="android:statusBarColor" >@color/purple_700</item>
+        <item name="android:navigationBarColor">@color/purple_700</item>
+    </style>
+
+    <style name="Theme.Paging3_n_UnSplashAPI.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+
 </resources>
